@@ -1,6 +1,8 @@
 # 17live_ui_clone
 a project to clone [17 live](https://17.live/) UI
 
+![alt 17_demo](./17demo.gif)
+
 ## Main package
 - express
 - ejs
