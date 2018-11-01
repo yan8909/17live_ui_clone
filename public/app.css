@@ -1,0 +1,342 @@
+html,body{
+    height: 100%;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+     height: 60px;
+     text-align: center;
+}
+
+nav{
+    height: 70px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.custom-select{
+    width: 140px;
+    margin: 10px 200px;
+    background-color: rgb(250, 250, 250);
+}
+
+.nav{
+    height: 60px;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+#search{
+    background-color: rgb(250, 250, 250);
+    width: 110px;
+    -webkit-transition: width .35s ease-in-out;
+    transition: width .35s ease-in-out;
+}
+#search:focus{
+    width: 210px;
+}
+
+#copy-right{
+    margin: 17px 200px;
+}
+#copy-right a{
+    margin-left: 40px;
+}
+
+
+
+/*index*/
+/*****************************/
+.custom-container-width{
+    max-width: 1500px;
+}
+
+.index .card{
+    border:none;
+    padding: 5px;
+}
+
+.index a{
+    height: 100%;
+}
+
+.download{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 20px 10px;
+}
+
+
+#logo{
+    width: 50px;
+}
+
+#get-app{
+    display: block;
+    text-align: center;
+}
+
+#index-more{
+    background-color: white;
+    border-color: #f0f0f0;
+    margin: 30px auto;
+    display: block;
+    width: 120px;
+}
+#index-more:hover{
+    background-color: rgb(250, 250, 250);
+}
+/*****************************/
+
+
+
+/*purches*/
+/*****************************/
+.custom-container-purches{
+    max-width: 1300px;
+}
+
+.buy-card{
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 240px;
+    height: 310px;
+}
+
+.card-header{
+    border: none;
+    height: 75%;
+}
+
+.card-header:first-child{
+    border-radius: 0 0 110px 110px/60px;
+}
+.card-footer{
+    border: none;
+    height: 25%;
+    background-color: white;
+}
+
+.card-header h1{
+    margin: 80px auto;
+    font-weight: 400;
+    
+}
+.card-footer button{
+    width:195px;
+    height: 100%;
+    background-color: white;
+    font-size: 18px;
+    border-color: #f0f0f0;
+    margin: auto;
+}
+
+#purches-bg{
+    background-color: rgb(250, 250, 250);
+}
+/*****************************/
+
+
+
+
+/*leadboard*/
+/*****************************/
+.ranking{
+    max-height: 970px;
+    overflow-y: scroll;
+}
+
+#leadboard-banner{
+    background-color: rgb(35, 25, 40);
+    color: white;
+    height: 300px;
+    font-size: 1.5rem;
+    padding: 65px 0;
+}
+#leadboard-banner h1{
+    font-size: 3em;
+}
+/*****************************/
+
+
+
+
+/*tv*/
+/*****************************/
+#show{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#tv-preview{
+    width: 75%;
+    height: 100%;
+    float: left;
+}
+
+#video-preview{
+    width: 100%;
+    height: 90%;
+    
+}
+
+#video-footer{
+    width: 100%;
+    height: 10%;
+    margin-right: 0;
+    background-color: rgb(50, 50, 50);
+}
+
+#video-footer-title{
+    width: 75%;
+    height: 100%;
+    display: inline-block;
+    margin: 0;
+    color: white;
+    padding-left: 5%;
+}
+#video-footer-title h3{
+    height: 100%;
+    line-height: 50px;
+}
+#video-footer-share{
+    width: 25%;
+    display: inline-block;
+    border-left: black solid 1px; 
+    text-align: center;
+}
+#video-footer-share button{
+    border: none;
+    background: none;
+    height: 45px;
+    width: 50px
+}
+
+#other-tv{
+    width: 24%;
+    max-height: 500px;
+    overflow-y: scroll;
+    float: left;
+}
+#other-tv li{
+    border-left:none;
+    border-right:none;
+    background-color: rgb(80, 75, 85);
+    height: 100px;
+    color: white;
+    
+}
+
+#tv{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 50px;
+}
+/*****************************/
+
+
+/*live*/
+/*****************************/
+#live-bg{
+    height: 100%;
+    background-color: rgb(250, 250, 250);
+}
+
+#streamerInfo{
+    width: 100%;
+    height: 50%;
+    overflow-y: auto;
+    background-color: white;
+    border: 1px solid #f0f0f0;
+    padding: 20px;
+    margin: 0;
+}
+
+#streamSuggest{
+    width: 100%;
+    height: 48%;
+    background-color: white;
+    border: 1px solid #f0f0f0;
+    margin-top: 4%;
+    padding: 20px;
+}
+
+#streamVideo{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display:inline-block;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#asideContent{
+    border: 1px solid #f0f0f0; 
+    height: 100%;
+}
+
+#asideTab{
+    height: 5%;
+}
+
+#chat{
+    border: none;
+    background-color: rgb(250, 250, 250);
+    height: 90%;
+    
+}
+#chat ul{
+    list-style: none;
+    padding-left: 10px;
+}
+#chat li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#chat span{
+    color: blue;
+}
+
+#chatContent{
+    height: 100%;
+    overflow-y: auto;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+#chatInput{
+    width: 100%;
+    height: 5%;
+    padding-left: 5%;
+    margin: 0;
+    border: none;
+    background-color: white;
+}
+#chatInput input{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.streamBlock{
+    /*display: inline-block;*/
+    width: 30%;
+    height: 90%;
+    margin-right: 20px;
+    float: left;
+}
+
+.custom-container-live{
+    max-width: 1400px;
+    height: 100%;
+}
